@@ -20,11 +20,54 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+
+        .header-container {
+            width: 100%;
+            margin-bottom: 40px;
         }
 
         h1 {
             text-align: center;
             font-size: 80px;
+            margin: 0;
+        }
+
+        .content-container {
+            display: flex;
+            flex: 1;
+            align-items: center;
+        }
+
+        .left-content {
+            flex: 0 0 auto;
+            text-align: left;
+            margin-left: 60px;
+        }
+
+        .left-content h2 {
+            font-size: 32px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-weight: normal;
+        }
+
+        .topic-link {
+            display: block;
+            padding: 6px 0;
+            color: #000;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .topic-link:hover {
+            text-decoration: underline;
         }
     </style>
 
@@ -32,7 +75,18 @@
 
 <body>
 
-<h1>CALCULUS</h1>
+<div class="header-container">
+    <h1>CALCULUS</h1>
+</div>
+
+<div class="content-container">
+    <div class="left-content">
+        <h2>topic list</h2>
+        <div id="topics">
+            <a href="derivatives.html" class="topic-link">derivatives</a>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
