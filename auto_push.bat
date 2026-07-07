@@ -1,5 +1,5 @@
 @echo off
-cd /d C:\Users\user\Desktop\github\gtnh wiki
+cd /d C:\Users\user\Desktop\github\calculus
 
 echo ==========================
 echo   git auto push tool
@@ -22,7 +22,7 @@ git push origin main
 
 echo.
 echo opening website...
-start https://cosmoo-the-cow.github.io/gtnh-wiki/
+start https://cosmoo-the-cow.github.io/calculus/
 
 echo.
 echo done!
