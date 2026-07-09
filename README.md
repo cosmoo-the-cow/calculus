@@ -1,2 +1,1 @@
-# gtnh-wiki
-a wikipedia for gtnh the minecraft mod
+i dont know what im making
